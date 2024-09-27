@@ -1,0 +1,72 @@
+/* Corpo da Página */
+body{
+    background: url(../Imagens/background.jpg);
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 14pt;
+}
+
+/* Cabeçalho */
+header{
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+header h1{
+    font-size: 35pt;
+    text-shadow: 3px 3px 15px rgb(110, 104, 104);
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    padding: 30px;
+    font-size: 15pt;
+    position: relative;
+    top: -95px;
+    left: 35%;
+    display: inline-block;
+} 
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 3px 3px 15px black;
+    text-decoration: underline;
+    transition: 2s;
+}
+
+/* Sessão: 1 */
+section{
+    background-color: #E6E6E6;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    text-indent: 15px;
+}
+h1{
+    font-size: 18pt;
+    text-shadow: 3px 3px 15px black;
+}
+div input{
+    text-align: right;
+    width: 50px;
+    margin-bottom: 10px;
+}
+#button, #limpar{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    width: 100px;
+}
+
+/* Rodapé */
+footer{
+    border-top: 1px solid black;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}

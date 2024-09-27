@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Afim - Mate a Mática</title>
+    <link rel="stylesheet" href="stylefuncao.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Mate a Mática</h1>
+        <nav>
+            <ul id="ulcabecalho">
+                <li><a href="../../index.html">INÍCIO</a></li>
+                <li><a href="../../Calculadoras/calc.html">CALCULADORAS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sessão: 1 -->
+    <section>
+        <article>
+            <h1>Função Afim</h1>
+            <p>Descubra o resultado das suas equações de Função Afim com um clique abaixo!</p>
+            <div>
+                <input type="number" name="txta" id="txta"> <i>X</i>
+                <select name="operacao" id="operacao">
+                    <option value="mais">+</option>
+                    <option value="menos">-</option>
+                </select>
+                <input type="number" name="txtb" id="txtb"> <br>
+                <input type="button" value="Calcular" onclick="calc()" id="button">
+                <input type="button" value="Limpar" onclick="limpar()" id="limpar"> <br>
+                <span id="resposta"></span>
+            </div>
+        </article>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; <i>CarlosFreitas</i></p>
+        <p>Obrigado por utilizar meu site</p>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="funcaoscript.js"></script>
+</body>
+</html>

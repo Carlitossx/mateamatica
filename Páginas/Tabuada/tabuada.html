@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada - Mate a Mática</title>
+    <link rel="stylesheet" href="../Função Afim/stylefuncao.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Mate a Mática</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">INÍCIO</a></li>
+                <li><a href="../../Calculadoras/calc.html">CALCULADORAS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sessão: 1 -->
+    <section>
+        <h1>Tabuada</h1>
+        <p>Descubra o resultado da Tabuada de algum número com um clique abaixo!</p>
+        <div>
+            <label for="txtnumber">Número: </label>
+            <input type="number" name="txtnumber" id="txtnumber"> <br>
+            <input type="button" value="Calcular" onclick="calcular()" id="button">
+            <input type="button" value="Limpar" onclick="limpar()" id="limpar">
+            <span id="resultado"></span>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; <i>CarlosFreitas</i></p>
+        <p>Obrigado por utilizar meu site</p>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="tabuada.js"></script>
+</body>
+</html>
