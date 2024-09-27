@@ -1,3 +1,13 @@
+/* ------------------------------- */
+/* CSS Resolução Tela Grande */
+@media (min-width: 1706px) and (max-width: 2134px){
+    img{
+        position: relative;
+        left: -25%;
+    }
+}
+
+
 /* Corpo da Página */
 body{
     background: url(Imagens/background.jpg);
