@@ -5,6 +5,10 @@
         position: relative;
         left: -25%;
     }
+    article#slogan{
+        position: relative;
+        left: 10%;
+    }
 }
 
 
