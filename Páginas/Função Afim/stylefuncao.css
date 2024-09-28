@@ -62,6 +62,10 @@ div input{
     text-align: center;
     width: 100px;
 }
+select{
+    height: 30px;
+    width: 30px;
+}
 
 /* Rodapé */
 footer{
