@@ -18,12 +18,12 @@ function calc(){
     } else if (a > 0){
         resposta.innerHTML += `<br>Função <strong>Crescente</strong><br>`
     } else{
-        resposta.innerHTML += `Função <strong>Decrescente</strong><br>`
+        resposta.innerHTML += `<br>Função <strong>Decrescente</strong><br>`
     }
 
 // Função Constante, Identidade ou Linear
     if (a == 0){
-        resposta.innerHTML += `Função <strong>Constante</strong><br>`
+        resposta.innerHTML += `<br>Função <strong>Constante</strong><br>`
     } else if (a == 1 && b == 0){
         resposta.innerHTML += `Função <strong>Identidade</strong><br>`
     } else if (b == 0){
