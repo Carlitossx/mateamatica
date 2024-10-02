@@ -9,6 +9,13 @@ function calc(){
     var a = Number(txta.value)
     var b = Number(txtb.value)
 
+/* Função Crescente ou Decrescente / Coeficiente Linear */
+    if (a > 0){
+        resposta.innerHTML += `<br>Função <strong>Crescente</strong><br> Coeficiente Linear: ${b}<br>`
+    } else{
+        resposta.innerHTML += `<br>Função <strong>Decrescente</strong><br> Coeficiente Linear: ${b}<br>`
+    }
+    
 /* Condição caso valor de B estiver negativo */
     if (b < 0){
         resposta.innerHTML = `[ERRO]: Não coloque o valor de B negativo. Use o selecionamento de Mais ou Menos.`
