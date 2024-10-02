@@ -1,8 +1,13 @@
+// Função para calcular Tabuada
 function calcular(){
     var txtnumber = document.getElementById('txtnumber')
     var resultado = document.getElementById('resultado')
     var number = Number(txtnumber.value)
 
+// Limpa Texto
+    resultado.innerText = ''
+
+// Repetição para calcular Tabuada
     for (var contador = 1; contador <= 10; contador++){
         var tabuada = number * contador
         resultado.innerHTML += `<br> ${number} <i>x</i> ${contador} = <strong>${tabuada}</strong> <br>`
